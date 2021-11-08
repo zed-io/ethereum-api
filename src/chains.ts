@@ -1,5 +1,5 @@
 import { IChainData } from "./types";
-import { CLO, ETH, MATIC, POA, RSK, xDAI } from "./assets";
+import { CELO, CLO, ETH, MATIC, POA, RSK, xDAI } from "./assets";
 
 const supportedChains: IChainData[] = [
   {
@@ -111,6 +111,16 @@ const supportedChains: IChainData[] = [
     network_id: 1,
     rpc_url: "https://clo-geth.0xinfra.com/",
     native_currency: CLO,
+  },
+  {
+    name: "Celo Mainnet",
+    short_name: "celo",
+    chain: "CELO",
+    network: "mainnet",
+    chain_id: 42220,
+    network_id: 42220,
+    rpc_url: "https://forno.celo.org/",
+    native_currency: CELO,
   },
   {
     name: "Matic Mainnet",

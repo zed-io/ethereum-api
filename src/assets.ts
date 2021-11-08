@@ -41,3 +41,9 @@ export const CLO: IAssetData = {
   decimals: "18",
   contractAddress: "",
 };
+export const CELO: IAssetData = {
+  symbol: "CELO",
+  name: "CELO",
+  decimals: "18",
+  contractAddress: "",
+};
